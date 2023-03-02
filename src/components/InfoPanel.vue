@@ -109,7 +109,7 @@ export default {
                 'December',
             ],
             currentDate: '',
-            iconsWay: '/src/images/icons/weather/',
+            iconsWay: '../src/assets/images/icons/weather/',
             dataOfTemp: { value: Math.floor(this.weatherDataInf.temp), system: '°C' },
         }
     },

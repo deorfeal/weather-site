@@ -35,7 +35,7 @@ export default {
                 'Friday',
                 'Saturday'
             ],
-            iconsWay: '/src/images/icons/weather/',
+            iconsWay: '../src/assets/images/icons/weather/',
             dataOfTemp: { valueMax:  Math.floor(this.daysData.tempmax), valueMin:  Math.floor(this.daysData.tempmin) },
         }
     },
